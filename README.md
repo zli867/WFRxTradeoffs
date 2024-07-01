@@ -79,3 +79,6 @@ Processed the reported prescribed burning information to json data.
 1. Wildfire: GenerateWildfireInput.py.
 2. Prescribed Fire: create the fire JSON fire (GenerateNewDesignRxInfo.py). Then, use the JSON file to create BlueSky input (GenerateRxInput.py).
 3. Post-burn Wildfire: create the configuration file and the file is used to update the fuel load after the prescribed fires (GeneratePostWildfireConfig.py). Then, create a JSON file for BlueSky input. Since the boundary and timing are the same as wildfire, use the GenerateWildfireInput.py.
+
+## Authorship
+The paper will be submitted to ES&T Air.
