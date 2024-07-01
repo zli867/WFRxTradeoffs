@@ -13,7 +13,7 @@ This project mainly includes three modules for the research project. The three m
 This module requires manual design of the fire breaks. Although the module provides functions to speed up the process, I did not figure out a method to do it automatically. The module provided here is useful for case studies but tedious for regional studies (such as the U.S. domain).
 
 The process is discussed as follows:
-1. Run ProduceBoundaryLine/ProduceBoundaryLineSlope.ipynb. The function is used to design each line of fire breaks. It creates the pickle file contains the shapely line object based on your design. The Jupyter Notebook provides interactive figures, and click the start point of the line you want to extract:
+1. Run ProduceBoundaryLine/ProduceBoundaryLineSlope.ipynb. The function is used to design each line of fire breaks. It creates the pickle file contains the shapely line object based on your design. The Jupyter Notebook provides interactive interface, and click the start point of the line (red points in the figure) you want to extract:
 <p align="center">
   <img src="https://github.com/zli867/WFRxTradeoffs/blob/main/README_SRC/click_points.png"/>
 </p>
